@@ -13,7 +13,7 @@ matrix_columns = 64
 
 # how many matrixes stacked horizontally and vertically 
 matrix_horizontal = 1 
-matrix_vertical = 2
+matrix_vertical = 3
 
 total_rows = matrix_rows * matrix_vertical
 total_columns = matrix_columns * matrix_horizontal
@@ -41,9 +41,9 @@ red = (255,0,0)
 blue = (0,0,255)
 green = (0,255,0)
 #draw.rectangle( (0,0,total_columns-1,total_rows-1), outline=outline_color)
-draw.line((0,0,63,63),fill=red)
-draw.line((5,0,68,63),fill=green)
-draw.line((10,0,73,63),fill=blue)
+draw.line((0,0,96,96),fill=red)
+draw.line((5,0,101,96),fill=green)
+draw.line((10,0,106,96),fill=blue)
 
 matrix.SetImage(image, 0, 0)
 
